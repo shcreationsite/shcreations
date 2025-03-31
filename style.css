@@ -41,19 +41,16 @@ header {
    align-items: center;
 }
 
-.logo .logo1{
-    height: 7vh;
-    margin-top: 1vh;
 
-}
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    padding-right: 20px;
+    padding-right: 2vh;
     font-weight: bolder;
+    font-size: 1.2em;
 }
 
 nav ul li {
@@ -158,6 +155,8 @@ nav ul li a:hover {
 .creations-gallery {
     padding: 50px 20px;
     text-align: center;
+    top: 7vh;
+    position: relative;
 }
 
 .gallery-grid {
@@ -280,12 +279,33 @@ footer {
     right: 20px; /* Add this line */
 }
 
+
+
+.logo {
+    /* font-family: sans-serif; */
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+.before{
+  float:left;
+  color: #ffa500;
+  font-family: fantasy;
+  padding-right:0.5vh;
+  padding-left:1.5vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+.after{
+  float:left;
+  color: #a9b2ff;
+  font-family: fantasy;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
+}
+
+
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
-    header {
-        flex-direction: row;
-        justify-content: center;
-    }
+    
 
     .menu-btn {
         display: block;
@@ -298,6 +318,23 @@ footer {
     header {
         flex-direction: column;
         align-items: flex-start;
+        height: 7vh;
+        flex-direction: row;
+        /* justify-content: center; */
+        position: fixed; /* Add this line */
+
+        justify-content: center;
+        background-color: #333;
+        color: #fff;
+        /* padding: 10px 20px; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url('herobackgroundblur.jpg'); /* Replace with your hero image */
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        
     }
 
     nav ul {
@@ -314,4 +351,13 @@ footer {
     .sidenav{
         background-color: #55555570;
     }
+
+    .creations-gallery {
+        padding: 50px 20px;
+        text-align: center;
+        top: 7vh;
+        position: relative;
+    }
+
+
 }
