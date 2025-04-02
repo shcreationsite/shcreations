@@ -289,17 +289,18 @@ footer {
 .before{
   float:left;
   color: #ffa500;
-  font-family: fantasy;
+  font-family: Bungee;
   padding-right:0.5vh;
   padding-left:1.5vh;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* font-weight: 900; */
   }
 .after{
   float:left;
   color: #a9b2ff;
-  font-family: fantasy;
+  font-family: Bungee;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  
+  /* font-weight: 900; */
 }
 
 
